@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijital Çözümler | Web Tasarım & Dijital Pazarlama</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-icon"><i class="fas fa-cube"></i></span>
+                Dijital Çözümler
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anasayfa">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hizmetler">Hizmetler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolyo">Portfolyo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h1 class="hero-title">
+                        <span class="highlight">Dijital</span> Dünyada 
+                        <span class="typing-text"></span>
+                    </h1>
+                    <p class="lead">Web tasarım, SEO, Google Ads ve veritabanı çözümleriyle işinizi bir adım öne taşıyın.</p>
+                    <div class="hero-buttons">
+                        <a href="#iletisim" class="btn btn-primary btn-lg">Hemen Başlayın</a>
+                        <a href="#portfolyo" class="btn btn-outline-light btn-lg">Portfolyomuz</a>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="Hero Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Hizmetler Section -->
+    <section id="hizmetler" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2>Hizmetlerimiz</h2>
+                <p class="section-subtitle">Dijital dünyada ihtiyacınız olan tüm çözümler</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Tasarım</h3>
+                        <p>Modern ve responsive web tasarım çözümleri ile markanızı dijitalde en iyi şekilde temsil ediyoruz.</p>
+                        <a href="#" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO</h3>
+                        <p>Arama motorlarında üst sıralarda yer alın ve organik trafiğinizi artırın.</p>
+                        <a href="#" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                        <h3>Google Ads</h3>
+                        <p>Hedef kitlenize ulaşın ve yatırımınızın karşılığını maksimum seviyede alın.</p>
+                        <a href="#" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolyo Section -->
+    <section id="portfolyo" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2>Portfolyomuz</h2>
+                <p class="section-subtitle">Başarıyla tamamladığımız projeler</p>
+            </div>
+            <div class="swiper portfolio-slider" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=675&q=80" alt="E-Ticaret Projesi">
+                            <div class="portfolio-overlay">
+                                <h4>E-Ticaret Projesi</h4>
+                                <p>Web Tasarım & SEO</p>
+                                <a href="#" class="portfolio-link">Detayları Gör <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=675&q=80" alt="Kurumsal Web Sitesi">
+                            <div class="portfolio-overlay">
+                                <h4>Kurumsal Web Sitesi</h4>
+                                <p>Web Tasarım & Google Ads</p>
+                                <a href="#" class="portfolio-link">Detayları Gör <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=675&q=80" alt="Mobil Uygulama">
+                            <div class="portfolio-overlay">
+                                <h4>Mobil Uygulama</h4>
+                                <p>UI/UX Tasarım</p>
+                                <a href="#" class="portfolio-link">Detayları Gör <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=675&q=80" alt="SEO Projesi">
+                            <div class="portfolio-overlay">
+                                <h4>SEO Projesi</h4>
+                                <p>Dijital Pazarlama</p>
+                                <a href="#" class="portfolio-link">Detayları Gör <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=675&q=80" alt="Sosyal Medya Yönetimi">
+                            <div class="portfolio-overlay">
+                                <h4>Sosyal Medya Yönetimi</h4>
+                                <p>Dijital Pazarlama</p>
+                                <a href="#" class="portfolio-link">Detayları Gör <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımızda Section -->
+    <section id="hakkimizda" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <h2>Hakkımızda</h2>
+                        <p class="lead">Dijital dünyada 10 yılı aşkın deneyimimizle, işletmenizi bir adım öne taşıyoruz.</p>
+                        <p>Uzman ekibimiz ve yenilikçi çözümlerimizle yanınızdayız. Her projede müşteri memnuniyetini ön planda tutuyor, en iyi sonuçları elde etmek için çalışıyoruz.</p>
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Tamamlanan Proje</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">98%</span>
+                                <span class="stat-label">Müşteri Memnuniyeti</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Yıllık Deneyim</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Hakkımızda" class="img-fluid rounded">
+                        <div class="experience-badge">
+                            <span>10+</span>
+                            <small>Yıllık Deneyim</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Section -->
+    <section id="iletisim" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2>İletişim</h2>
+                <p class="section-subtitle">Bizimle iletişime geçin</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <form class="contact-form">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Adınız">
+                            <label for="name">Adınız</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="E-posta">
+                            <label for="email">E-posta</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" placeholder="Mesajınız" style="height: 150px"></textarea>
+                            <label for="message">Mesajınız</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Gönder</button>
+                    </form>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Adres</h3>
+                            <p>İstanbul, Türkiye</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Telefon</h3>
+                            <p>+90 555 123 4567</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>E-posta</h3>
+                            <p>info@dijitalcozumler.com</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-brand">
+                        <span class="brand-icon"><i class="fas fa-cube"></i></span>
+                        <h3>Dijital Çözümler</h3>
+                    </div>
+                    <p>Dijital dünyada işinizi bir adım öne taşıyın.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#hizmetler">Hizmetler</a></li>
+                        <li><a href="#portfolyo">Portfolyo</a></li>
+                        <li><a href="#hakkimizda">Hakkımızda</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Bültenimize Katılın</h4>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="E-posta adresiniz">
+                            <button class="btn btn-primary" type="submit">Katıl</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dijital Çözümler. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
