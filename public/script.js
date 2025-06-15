@@ -8,7 +8,7 @@ AOS.init({
 
 // Initialize Typed.js
 const typed = new Typed('.typing-text', {
-    strings: ['Öne Çıkın', 'Başarılı Olun', 'Büyüyün'],
+    strings: ['Başarılı Olun', 'Öne Çıkın', 'Büyüyün'],
     typeSpeed: 50,
     backSpeed: 30,
     backDelay: 2000,
@@ -16,14 +16,10 @@ const typed = new Typed('.typing-text', {
 });
 
 // Initialize Swiper
-const portfolioSwiper = new Swiper('.portfolio-slider', {
+const swiper = new Swiper('.portfolio-slider', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -39,7 +35,7 @@ const portfolioSwiper = new Swiper('.portfolio-slider', {
         1024: {
             slidesPerView: 3,
         },
-    }
+    },
 });
 
 // Navbar Scroll Effect
